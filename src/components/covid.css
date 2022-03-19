@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(30, 30, 121);
+    /* color: white; */
+}
+h1,h2{
+   text-align: center;
+   color: rgb(182, 222, 223);
+   /* color:black; */
+}
+
+.section{
+    padding : 5px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.card {
+    padding: 20px;
+    width: 40%;
+  }
+.card_inner{
+    padding: 15px;
+    background-color: rgb(188, 201, 201);
+    text-align: center;
+    border-radius: 5px;
+}  
+.card_name{
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+}
+.card_total{
+    font-weight: bold;
+}
+span{
+   font-size:x-small;
+   color:rgb(5, 5, 5)
+}
